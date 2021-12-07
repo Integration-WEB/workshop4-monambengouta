@@ -10,7 +10,26 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'lacuna_regularregular';
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.eot');
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.woff2') format('woff2'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.woff') format('woff'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.ttf') format('truetype'),
+         url('../fontface/Lacuna-Regular-fontfacekit/web\ fonts/lacuna-webfont.svg#lacuna_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+.first-cercle{
+    margin-left: 1.25rem;
+}
+.section1{
+    padding-top: 7.05rem;
+}
 .navbar-nav{
     margin-left: 0.43em; ;
 }
@@ -47,4 +66,31 @@ body{
 
 .section1{
     background-color: #3a0a1d;
+}
+.nav-link{
+    font-family: 'lacuna_regularregular';
+}
+span {
+    font-family: 'league Gothic';
+    font-weight: bold;
+    font-size: 1.813rem;
+    padding-top: 2.5rem;
+    
+}
+footer{
+    background-color:#e4bc01;
+}
+footer .bi-instagram, .bi-twitter{
+    background-color: white;
+    padding:2px 2px;
+    color: #e4bc01;
+    border-radius: 50%;
+}
+footer .bi-facebook{
+    background-color: #e4bc01;
+    color: white;
+    width: 28px;  
+     height: 28px;     
+
+    
 }
